@@ -1,0 +1,36 @@
+@startuml
+/'
+Software Design for Artifical Neural Network example.
+
+Will start out with the snap shot of an Artifical Neural Network solution.  The appllication reads the hand 
+writen digit training data and label data.  It utilized it utilizes the ANN algorithem using a combination
+of Linear Algerbra, Stochastic Gradient Descent, forward and backward propogation.  It saves the weights 
+and biases in  a json formated file.  
+
+Use case are produced as a result of human interaction with the software solution.  There are many scenarios.
+this will allow to tell the story deschipering classes and their relation, class diagrams, and sequence flow.
+'/
+left to right direction
+actor "Data Enginineer" as de 
+package Hand_Writen_Recognition {
+    usecase "visualize data" as UC1
+    /'
+    1.  The Data_Enginineer runs Hand_Writen_Recognition on the data file and visualized the numerical values.
+    '/
+
+    usecase "train ANN & bias and weights" as UC2
+    /'
+    2.  The user runs the solution to train the algorithem and saves the weights and biases to a json formated file.
+    '/
+
+    usecase "recognize hand writen numbers" as UC3
+    /'
+    3.  The user runs the solution with an input file to recognize the hand writen digit.
+    '/
+}
+de --> UC1
+de --> UC2
+de --> UC3
+
+
+@enduml

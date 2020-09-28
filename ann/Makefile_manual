@@ -1,0 +1,39 @@
+# compiler is g++
+# an environemnt variable MNIST_ML_ROOT will be defined.
+# the flags are standard c++ 11 and the debug.
+# name of the library is LIB_DATA
+# target is all and the dependency is LIB_DATA
+# target LIB_DATA is dependent on libdir objdir ...
+# compile target LIB_DATA add CFLAGS -o 
+# remove the obj directory
+# target libdir ...
+# target objdir ...
+# target obj/data_handler.o depends on source data_handler.cc
+# link 
+cc=g++
+INCLUDE_DIR := $(MNIST_ML_ROOT)/include
+src := $(MNIST_ML_ROOT)/src
+CFLAGS := -std=c++11 -g
+LIB_DATA := Libdata.so
+
+all : $(LIB_DATA)
+
+$(LIB_DATA) : libdir objdir obj/data_handler.o obj/data.o 
+    $(CC) $(CFLAGS) -o $(MNIST_ML_ROOT)/lib/$(LIB_DATA) obj/*.o 
+    rm -r $(MNIST_ML_ROOT)/obj
+
+libdir :
+    mkdir -p $(MNIST_ML_ROOT)/lib 
+
+objdir :
+    mkdir -p $(MNIST_ML_ROOT)/obj
+
+obj/data_handler.o : $(src)/data_handler.cc
+    $(CC) -fPIC $(CFLAGS) -o obj/data_handler.o -I$(INCLUDE_DIR) -c $(src)/data_handler.cc
+
+obj/data.o : $(src)/data.cc
+    $(CC) -fPIC $(CFLAGS) -o obj/data.o -I$(INCLUDE_DIR) -c $(src)/data.cc
+
+clean:
+    rm -r $(MNIST_ML_ROOT)/lib
+    rm -r $(MNIST_ML_ROOT)/obj
