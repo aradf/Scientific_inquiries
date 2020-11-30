@@ -1,0 +1,9 @@
+pip install keras==2.4.3
+
+pip install tensorflow
+
+pip install --upgrade tensorflow
+
+pip install -U scikit-learn
+
+

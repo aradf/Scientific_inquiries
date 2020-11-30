@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Conv Neural Network - cnn_classify",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cnn_classify",
+            "args": ["./network.pt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++-7 build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Conv Neural Network - cnn_mnist",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cnn_mnist",
+            "args": ["./network.pt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++-7 build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        },
+        {
+            "name": "Conv Neural Network - cnn_vgg_16",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/cnn_vgg_16",
+            "args": ["./network.pt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++-7 build active file",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+
+    ]
+}
