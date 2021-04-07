@@ -1,0 +1,56 @@
+
+###
+https://www.mathworks.com/help/vision/object-detection-using-deep-learning.html
+https://www.mathworks.com/help/vision/ref/objectdetectortrainingdata.html
+https://www.mathworks.com/help/vision/ug/object-detection-using-yolo-v3-deep-learning.html
+
+### Need the following Matlab libraries.
+Computer Vision Toolbox
+Deep Learning Toolbox
+Deep Learning Toolbox Model for ResNet-50 Network
+Image Processing Toolbox
+
+### code generation.
+GPU Coder
+GPU Coder Interface for Deep Learning Libraries
+Deep Learning Toolbox
+Computer Vision Toolbox
+
+### Matlab commands:
+matlab
+imageLabeler
+
+###
+Requires MATLAB
+Requires MATLAB Coder
+Requires Parallel Computing Toolbox
+Requires host platform C compiler; see list of supported host compilers
+For GPU computing, see additional system requirements
+For executing deep learning examples, see additional system requirements
+Deep Learning Toolbox required to generate code from deep learning networks
+Embedded Coder required for bidirectional traceability and SIL/PIL
+Simulink Coder required to generate code from Simulink models
+
+###
+Mask Region Convolutional Neural Network:
+SSD: 
+Yolo:  You only look once
+(1-done) Ground truth labeler(1): https://www.youtube.com/watch?v=ow_B_30WU1s  
+(2-done) Ground truth labeler(2): https://www.youtube.com/watch?v=UnXDQmjYvDk
+(3-done) Extra Ground truth labeler: https://www.youtube.com/watch?v=xMsX5cdqbKU
+(4-done) Data Preparation: https://www.youtube.com/watch?v=g_Vj1ASBcYo
+(5-done) Algorithem training: https://www.youtube.com/watch?v=xOvuQ6DY_4w&list=RDCMUCgdHSFcXvkN6O3NXvif0-pA&start_radio=1&rv=xOvuQ6DY_4w&t=12
+(6) importing pre-trained: https://www.youtube.com/watch?v=5bnIYH6P-vE
+(7) Deploy: https://www.youtube.com/watch?v=fD-PKiqYNKo
+
+(8) extra: https://www.youtube.com/watch?v=4wmCg4Smpj0
+
+
+
+
+
+
+
+
+
+
