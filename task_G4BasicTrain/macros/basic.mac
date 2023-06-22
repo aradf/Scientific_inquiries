@@ -1,0 +1,6 @@
+# This macro just runs one single particle
+# to prove that the application works
+#
+# Run it using "./task macros/basic.mac"
+/run/initialize  #Initialize G4 Kernel. 
+/run/beamOn 1  #Start a Run with default number of events of 1.

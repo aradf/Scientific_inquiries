@@ -1,0 +1,8 @@
+### -- Draw individual slice in a new view
+### /vis/open OGLSQt
+### /vis/drawVolume
+/score/drawColumn boxMesh_1 eDep 1 0
+/score/drawColumn boxMesh_1 eDep 1 6
+/score/drawColumn boxMesh_1 eDep 1 12
+/score/drawColumn boxMesh_1 eDep 1 18
+
