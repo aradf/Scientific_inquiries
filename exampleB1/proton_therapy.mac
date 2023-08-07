@@ -1,0 +1,5 @@
+/run/initialize 
+/gun/particle proton
+/gun/energy 75 MeV
+/tracking/verbose 1
+/run/beamOn 10
