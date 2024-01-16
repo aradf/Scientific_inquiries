@@ -1,0 +1,30 @@
+/run/verbose 2
+/vis/open OGL
+/vis/sceneHandler/create OGL
+/vis/viewer/create ! ! none
+/vis/viewer/refresh
+/vis/viewer/zoom 1.2
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/run/initialize
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
+/vis/scene/add/trajectories smooth
+/tracking/storeTrajectory 2
+/vis/scene/notifyHandlers
+/vis/scene/add/scale 10 cm
+/vis/scene/notifyHandlers
+/vis/scene/add/axes
+/vis/scene/notifyHandlers
+/vis/scene/add/eventID
+/vis/scene/notifyHandlers
+/vis/scene/endOfEventAction accumulate
+/control/execute /home/montecarlo/Desktop/geant4/g4_trial/Ne427Lab02/run1.mac
+/run/initialize
+/control/verbose 2
+/tracking/verbose 2
+/run/beamOn 10
+/vis/scene/notifyHandlers scene-0
