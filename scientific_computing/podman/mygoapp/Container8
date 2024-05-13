@@ -1,0 +1,13 @@
+FROM docker.io/library/ubuntu AS build_first_stage
+RUN apt update -y && apt install gcc -y
+WORKDIR /opt/src
+COPY ./main.c /opt/src/main.c
+RUN cd /opt/src
+RUN gcc -o ./run_test ./main.c
+RUN cd /
+LABEL podman build -f Container8 -t myansi_capp
+LABEL podman run -it localhost/myansi_capp:latest
+LABEL CMD ["/opt/src/run_test"]
+FROM docker.io/library/ubuntu
+COPY --from=build_first_stage /opt/src/run_test .
+CMD ["./run_test"]

@@ -1,0 +1,9 @@
+# this is my first Dockerfile.
+FROM docker.io/library/ubuntu
+RUN apt-get update -y
+RUN apt-get clean all
+RUN apt install apache2 -y
+RUN apt-get clean all
+RUN apt install php -y
+RUN apt-get clean all
+CMD ["bash"]

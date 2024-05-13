@@ -1,0 +1,15 @@
+FROM docker.io/library/ubuntu AS build_first_stage
+LABEL FROM golang:1.7.3
+LABEL COPY app.go .
+LABEL RUN go build -i -o app  app.go
+RUN apt update -y && apt install gcc -y
+WORKDIR /opt/src
+COPY ./main.c /opt/src/main.c
+RUN cd /opt/src
+RUN gcc -o ./run_test ./main.c
+RUN cd /
+LABEL CMD ["/opt/src/run_test"]
+
+FROM docker.io/library/ubuntu
+COPY --from=build_first_stage /opt/src/run_test .
+CMD ["./run_test"]

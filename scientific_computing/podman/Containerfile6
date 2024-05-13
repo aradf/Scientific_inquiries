@@ -1,0 +1,4 @@
+FROM docker.io/alpine:latest
+LABEL Replace CMD with ENTRYPOINT
+ENTRYPOINT ["ping", "-c3"]
+CMD ["localhost"]

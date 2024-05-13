@@ -1,0 +1,16 @@
+FROM docker.io/library/busybox
+WORKDIR /app
+COPY ...
+RUN ...
+COPY ...
+RUN ...
+### The application will listen in port 8080
+EXPOSE 8080
+### execute '/do-something'
+CMD ["/do-something"]
+ENV
+ADD
+VOLUME
+USER
+WORKDIR
+ENTRYPOINT

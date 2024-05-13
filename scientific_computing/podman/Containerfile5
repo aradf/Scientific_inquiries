@@ -1,0 +1,25 @@
+# this is my first Dockerfile.
+FROM docker.io/library/ubuntu
+RUN apt update -y && apt install python3 -y
+LABEL Author Faramarz Arad
+LABEL podman build -f Containerfile4 -t simple_http_server
+LABEL podman run -d -P localhost/simple_http_server:latest
+LABEL podman ps -a
+LABEL IMAGE                                COMMAND               PORTS                  
+LABEL localhost/simple_http_server:latest  /bin/sh -c python...  0.0.0.0:42277->80/tcp  
+LABEL curl localhost:42277/test.html
+LABEL Exposed port 80
+EXPOSE 80
+Label Preserve data in the volume folder.
+VOLUME /data
+WORKDIR /opt/src
+COPY ./test.html /opt/src/test.html
+LABEL Invoke 'CMD python -m SimpleHTTPServer 80' ...
+LABEL Run python3 -m http.server on port 80
+LABEL USER can be set to none root like montecarlo && the exposed port can not be 8080
+RUN chown -R 1500 /opt/src
+EXPOSE 8080 
+USER montecarlo
+CMD python3 -m http.server 8080
+
+

@@ -1,0 +1,20 @@
+# this is my first Dockerfile.
+FROM docker.io/library/ubuntu
+RUN apt-get update -y && apt install apache2  -y && apt install php -y
+LABEL Author Faramarz Arad
+LABEL Description: This is Apache PHP Image baed on Ubuntu
+# CMD ["bash"]
+LABEL CMD /sbin/httxt2dbm -DFOREGROUND will run when building the image.
+LABEL The last 'CMD' is invoked only.
+COPY index.html /var/www/html/index.html
+# COPY src.tar.gz /tmp/
+# RUN tar xzvf /var/www/html/
+EXPOSE 80
+EXPOSE 8080
+# Preserve data in the volume folder.
+VOLUME /data
+WORKDIR /opt
+ENV APP_APIKEY abcd12345
+ENV APP_VER 1.0
+CMD /sbin/httxt2dbm -DFOREGROUND
+CMD ["/sbin/httxt2dbm", "-DFOREGROUND"]

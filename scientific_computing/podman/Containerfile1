@@ -1,0 +1,8 @@
+# this is my first Dockerfile.
+FROM docker.io/centos:8.4.2105
+# RUN yum update -y
+RUN yum install httpd php -y
+RUN yum clean all -y
+RUN yum install bash -y
+RUN yum clean all -y
+CMD ["bash"]
