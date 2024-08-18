@@ -1,0 +1,9 @@
+https://github.com/mnovak42/Geant4-Beginner-Course
+
+https://geant4-beginner-course.readthedocs.io/en/latest/course-doc/Preliminaries.html
+
+### Book for the Application Developers
+https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/index.html
+
+### git hub course information.
+https://github.com/mnovak42/Geant4-Beginner-Course

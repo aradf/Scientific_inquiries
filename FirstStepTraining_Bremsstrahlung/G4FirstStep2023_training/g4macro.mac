@@ -1,0 +1,24 @@
+### this is a comment.
+/run/initialize
+### Add additional physics
+# /testem/phys/addPhysics  emstandard_opt4
+### Set cut
+# /run/setCut 0.001 mm
+/run/setCut 0.01 mm
+### Create a hole by photoelectric interaction.
+# /process/inactivate compt
+# /process/inactivate conv
+### To (de)activate atomic deexcitation 
+### play with the two following commands.
+# /process/em/augerCascade true
+# /process/em/deexcitationIgnoreCut true
+### X-Ray Fluorescence
+# /process/em/fluo true
+### Set tracking verbose as needed.
+# /tracking/verbose 1
+### particle 
+/gun/particle e-
+### Kinetic energy.
+# /gun/energy 100 keV
+/gun/energy 1 MeV
+/run/beamOn 1000000
