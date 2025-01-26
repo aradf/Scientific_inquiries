@@ -1,0 +1,74 @@
+positive/out_put2000.png 1 1148 488 253 113
+positive/out_put2001.png 2 219 551 162 49 155 523 72 37
+positive/out_put2002.png 2 281 539 149 69 223 524 65 36
+positive/out_put2003.png 2 468 536 176 90 412 517 58 37
+positive/out_put2004.png 2 522 522 194 116 461 505 71 49
+positive/out_put2005.png 1 720 506 64 35
+positive/out_put2006.png 1 585 489 93 54
+positive/out_put2007.png 2 974 503 295 119 380 501 53 29
+positive/out_put2008.png 2 1281 494 574 186 406 501 66 36
+positive/out_put2009.png 1 468 499 74 39
+positive/out_put2010.png 1 482 495 79 44
+positive/out_put2011.png 1 641 496 108 54
+positive/out_put2012.png 1 725 492 134 68
+positive/out_put2013.png 1 1311 492 428 150
+positive/out_put2014.png 1 188 419 1551 223
+positive/out_put2015.png 2 366 450 78 46 227 451 57 30
+positive/out_put2016.png 2 395 456 92 47 183 446 43 25
+positive/out_put2017.png 2 541 516 140 73 346 505 46 28
+positive/out_put2018.png 2 582 516 150 84 353 502 52 30
+positive/out_put2019.png 2 590 521 149 83 361 502 45 31
+positive/out_put2020.png 1 663 525 217 115
+positive/out_put2021.png 1 773 520 378 196
+positive/out_put2022.png 1 865 526 545 265
+positive/out_put2023.png 1 1045 529 871 452
+positive/out_put2024.png 2 432 504 51 32 1293 563 624 502
+positive/out_put2025.png 1 450 502 60 36
+positive/out_put2026.png 1 459 503 63 38
+positive/out_put2027.png 1 484 503 63 40
+positive/out_put2028.png 1 758 512 146 82
+positive/out_put2029.png 1 950 480 232 119
+positive/out_put2030.png 1 1242 477 427 172
+positive/out_put2031.png 1 316 501 50 32
+positive/out_put2032.png 1 322 499 50 29
+positive/out_put2033.png 1 326 497 60 34
+positive/out_put2034.png 1 338 490 53 36
+positive/out_put2035.png 1 346 489 63 37
+positive/out_put2036.png 2 367 493 57 31 251 488 52 29
+positive/out_put2037.png 2 382 495 54 35 270 486 43 30
+positive/out_put2038.png 2 406 490 70 48 284 489 46 29
+positive/out_put2039.png 2 442 498 61 46 305 494 45 26
+positive/out_put2040.png 3 460 501 89 57 319 496 44 24 226 494 40 24
+positive/out_put2041.png 3 467 501 84 60 321 497 44 26 230 492 40 28
+positive/out_put2042.png 3 501 500 106 73 335 493 45 35 240 493 40 27
+positive/out_put2043.png 2 703 482 128 67 332 472 50 30
+positive/out_put2044.png 4 798 475 166 93 432 477 68 46 343 472 54 38 226 464 35 28
+positive/out_put2045.png 4 947 472 236 117 455 473 79 58 357 467 61 44 237 464 37 28
+positive/out_put2046.png 4 1170 476 390 159 475 468 95 72 377 464 61 46 248 466 39 23
+positive/out_put2047.png 4 1227 469 409 169 481 464 91 74 375 464 67 47 246 462 47 30
+positive/out_put2048.png 4 1271 473 427 167 482 464 96 74 378 463 69 47 245 463 47 31
+positive/out_put2049.png 4 1322 460 483 195 489 468 97 74 382 468 66 45 252 464 37 29
+positive/out_put2050.png 3 508 467 98 80 395 464 71 48 257 460 41 32
+positive/out_put2051.png 2 1214 471 432 170 992 461 178 91
+positive/out_put2052.png 3 1311 468 527 207 1040 458 199 108 414 466 54 44
+positive/out_put2053.png 3 1472 459 417 165 435 463 74 55 172 447 40 27
+positive/out_put2054.png 2 456 465 86 58 188 448 26 25
+positive/out_put2055.png 1 540 464 1084 585
+positive/out_put2056.png 0
+positive/out_put2057.png 2 277 453 379 166 1663 476 58 47
+positive/out_put2058.png 2 695 462 200 111 1625 473 48 44
+positive/out_put2059.png 2 864 463 141 87 1589 475 46 36
+positive/out_put2060.png 1 723 516 88 55
+positive/out_put2061.png 1 972 460 110 74
+positive/out_put2062.png 1 1055 452 86 65
+positive/out_put2063.png 1 1107 455 70 48
+positive/out_put2064.png 1 1142 449 62 49
+positive/out_put2065.png 1 1167 449 56 46
+positive/out_put2066.png 1 1197 447 49 45
+positive/out_put2067.png 1 1224 450 38 41
+positive/out_put2068.png 1 1250 457 12 34
+positive/out_put2069.png 2 856 484 360 205 1288 455 34 33
+positive/out_put2070.png 2 1125 481 226 147 1330 459 32 30
+positive/out_put2071.png 1 1252 473 189 118
+positive/out_put2072.png 2 1417 481 138 94 1403 456 33 23
+positive/out_put2073.png 1 1675 469 121 83

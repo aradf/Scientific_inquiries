@@ -1,0 +1,13 @@
+
+# dataset root directory
+path: ..\..\section3\custom_dataset\yolov5dataset
+
+
+train: images\train\      # train images (relative to 'path')
+val: images\validation\   # val images (relative to 'path')
+test: images\test\        # test images (relative to 'path')
+
+
+# Number of classes and their names
+nc: 3
+names: ['Cat', 'Dog', 'Elephant']

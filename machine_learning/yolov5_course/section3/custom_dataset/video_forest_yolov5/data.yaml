@@ -1,0 +1,16 @@
+# dataset root directory
+path: ../../section3/custom_dataset/video_forest_yolov5
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['automobile', 'motorcycle']
+
+roboflow:
+  workspace: faramarz-arad
+  project: forest_road
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/faramarz-arad/forest_road/dataset/1

@@ -1,0 +1,3 @@
+/home/montecarlo/Desktop/scientific_computing/ONNX-CNN-DIGIT-RECOGNITION/build/CMakeFiles/rebuild_cache.dir
+/home/montecarlo/Desktop/scientific_computing/ONNX-CNN-DIGIT-RECOGNITION/build/CMakeFiles/edit_cache.dir
+/home/montecarlo/Desktop/scientific_computing/ONNX-CNN-DIGIT-RECOGNITION/build/CMakeFiles/DisplayImage.dir
